@@ -1,0 +1,76 @@
+/* selector universal 
+* {
+    color: blueviolet;
+}
+/*
+
+/* selector tipo 
+main {
+    border: 2px dotted greenyellow ;
+}
+
+/*
+
+/*selector por id
+#info {
+    border-bottom: 5px solid red;
+} 
+/*
+
+/*SELECTOR CLASE
+.titulo {
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px purple;
+}
+/*
+
+/*selector de clase de un tag en particular
+h3.titulo{
+    font-size: 100px;
+}
+/*
+
+/*selector por atributo
+p[lang ="en"] {
+    background-color: blue;
+}
+/*
+
+*/
+
+/* a[href$="mx"]{
+    background-color: brown;
+}
+
+a[href^="ftp"]{
+    background-color: burlywood;
+}
+
+a[href*="pagina"]{
+    font-size: 45px;
+}
+
+[class~="round"] {
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+selectores listas */
+
+/* a, .titulo, [lang]{
+    color:blue;
+} */
+
+/* selector descendientes */
+/* main p {
+    border: 3px solid red;
+} */
+
+/* selector hijo directo */
+/* main > p {
+    border: 8px solid blueviolet;
+} */
+
+h3 + p{
+    background-color: aqua;
+}
